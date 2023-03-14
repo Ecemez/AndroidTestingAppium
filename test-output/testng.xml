@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Suite">
+	<listeners>
+		<listener class-name = "com.qa.utilities.Listener"/>
+		<listener class-name = "com.qa.utilities.ExtentTestNGListener"/>
+	</listeners>
+
+
+	<test name = "Test">
+		<classes> 
+			<class name = "com.qa.testcases.FlowTest"/>
+		</classes>
+	</test>
+
+</suite>
